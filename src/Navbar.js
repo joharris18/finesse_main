@@ -1,13 +1,15 @@
+import React from 'react'
 import person from './images/person.svg'
 import heart from './images/heart.svg'
 import bag from './images/bag.svg'
+import NavLinks from './components/NavLinks'
 
 export default function Navbar() {
     return (
         <nav>
-            <div class="first-list-container">
+            <div className="first-list-container">
 
-                <ul class="list-one">
+                <ul className="list-one">
                     <li id="brand-name">F I N E S S E </li>
                     <li>HEELS</li>
                     <li>FLATS</li>
@@ -27,9 +29,9 @@ export default function Navbar() {
                 </ul>
             </div>
 
-            <div class="second-list-container">
-                <ul class="list-two">
-                    <li class="first">NEW ARRIVALS</li>
+            <div className="second-list-container">
+                <ul className="list-two">
+                    <li className="first">NEW ARRIVALS</li>
                     <li>BEST-SELLERS</li>
                     <li>SHOPEE</li>
                     <li>LAZADA</li>
@@ -39,13 +41,7 @@ export default function Navbar() {
                 </ul>
             </div>
 
-            <div class="links-container">
-                <a href="#">this is a link</a>
-                <a href="#">this is a link</a>
-                <a href="#">this is a link</a>
-                <a href="#">this is a link</a>
-                <a href="#">this is a link</a>
-            </div>
+            <NavLinks />
         </nav>
     )
 }
