@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+/* font-family: "Raleway", sans-serif; 500, 700, 900 */
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  /* font-size: 1.125rem; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ==========
+  TYPOGRAPHY 
+  ===========*/
+#brand-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* ==========
+    LAYOUT 
+  ===========*/
+nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 1em;
+}
+
+.first-list-container {
+  background-color: black;
+  padding: 0.5em 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.second-list-container {
+  background-color: gray;
+  padding: 0.5em 0;
+  width: 100%;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links-container {
+  padding: 0.5em 0;
+  margin-left: 2.5em;
+}
+
+.links-container a {
+  margin-right: 1em;
+}
+
+#search-bar {
+  width: 400px;
+}
+
+li#sale {
+  color: red;
+  margin-left: 10em;
+  font-weight: 900;
+  letter-spacing: 0.125rem;
+  font-size: 1.25rem;
+}
+
+li img {
+  width: 2em;
+  filter: invert(100%);
 }
