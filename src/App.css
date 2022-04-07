@@ -26,6 +26,16 @@ img {
 /* ==========
     LAYOUT 
   ===========*/
+.grid {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 5em;
+}
+
 nav ul {
   list-style: none;
   display: flex;

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './NavLinks.css'
+import './Components.css'
 
 export default function NavLinks() {
     return (

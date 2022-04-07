@@ -1,0 +1,98 @@
+/* centers component */
+
+/* body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* centers component */
+
+.links-container {
+    display: flex;
+}
+
+#fs-link {
+    margin-right: auto;
+}
+
+.links-container > a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #292423;
+    border-bottom: #292423 1px solid;
+    padding-bottom: .5em;
+    letter-spacing: .05rem;
+    margin-right: 3.5em;
+}
+
+/* CARD */
+
+.card {
+    width: 14em;
+    letter-spacing: .2px;
+    line-height: 1.5em;
+    margin-right: 2em;
+}
+
+.card-flex{
+    display: flex;
+}
+
+.card-sale {
+    font-weight: bold;
+    font-size: .65rem;
+    letter-spacing: 1.5px;
+    background-color: #ff2e74;
+    color: white;
+    margin-right: 10em;
+    width: auto;
+    padding: 4px 6px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.card-sale-price {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.card-title {
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+  
+.card-sale-price {
+    color: #ff2e74;
+}
+
+.card-sale,
+.card-subtitle,
+.card-orig-price {
+    margin-bottom: .5em;
+}
+
+.card-star {
+    width: 1.2em;
+    margin-right: .1em;
+    filter: invert(.3);
+}
+
+.card-main-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card-reviews {
+    align-self: center;
+    margin-left: .5em;
+}
