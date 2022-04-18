@@ -14,4 +14,3 @@ export default function NavLinks() {
     )
 }
 
-// ReactDOM.render(<NavLinks />, document.getElementById('root'))

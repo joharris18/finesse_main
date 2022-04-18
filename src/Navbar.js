@@ -8,18 +8,20 @@ export default function Navbar() {
     return (
         <nav>
             <div className="first-list-container">
+                <p id="brand-name">F I N E S S E</p> 
 
-                <ul className="list-one">
-                    <li id="brand-name">F I N E S S E </li>
-                    <li>HEELS</li>
+                    
+                    {/* <li>HEELS</li>
                     <li>FLATS</li>
                     <li>PLATFORM</li>
                     <li>SLIP-ONS</li>
-                    <li>MULES</li>
+                    <li>MULES</li> */}
+                
+                <ul className="list-one">
                     <li>
                     <input
                         type="text"
-                        placeholder="20% Off New Arrivals, Flats"
+                        placeholder="20% Off New Arrivals, Heels"
                         id="search-bar"
                     />
                     </li>
@@ -31,13 +33,13 @@ export default function Navbar() {
 
             <div className="second-list-container">
                 <ul className="list-two">
-                    <li className="first">NEW ARRIVALS</li>
-                    <li>BEST-SELLERS</li>
-                    <li>SHOPEE</li>
-                    <li>LAZADA</li>
-                    <li>FLASH SALE</li>
+                    <li className="first">BEST-SELLERS</li>
+                    <li>HEELS</li>
+                    <li>FLATS</li>
+                    <li>MULES</li>
                     <li>LIMITED EDITION</li>
-                    <li id="sale">SALE</li>
+                    <li>ALL PRODUCTS</li>
+                    <li id="sale">FLASH SALE</li>
                 </ul>
             </div>
 

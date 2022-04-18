@@ -21,6 +21,7 @@ img {
 #brand-name {
   font-size: 1.5rem;
   font-weight: 700;
+  margin-left: 2em;
 }
 
 /* ==========
@@ -51,7 +52,11 @@ nav ul li {
   background-color: black;
   padding: 0.5em 0;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 
 .second-list-container {
   background-color: gray;
@@ -69,12 +74,17 @@ nav ul li {
   margin-right: 1em;
 }
 
+.list-two li {
+    margin-right: 2em;
+}
+
 #search-bar {
   width: 400px;
+  padding: .4em;
 }
 
 li#sale {
-  color: red;
+  color: #ffe6ea;
   margin-left: 10em;
   font-weight: 900;
   letter-spacing: 0.125rem;
@@ -84,4 +94,9 @@ li#sale {
 li img {
   width: 2em;
   filter: invert(100%);
+}
+
+
+.app {
+  width: 100%;
 }

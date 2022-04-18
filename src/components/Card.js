@@ -26,4 +26,3 @@ export default function Card() {
     )
 }
 
-// ReactDOM.render(<Card />, document.getElementById('root'))
